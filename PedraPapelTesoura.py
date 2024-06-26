@@ -61,7 +61,7 @@ elif resposta == 2 and numero_aleatorio == 0:
 elif resposta == 2 and numero_aleatorio == 1:
     print("Você venceu =D")
 else:
-    print("You chose a invalid number")
+    print("Esse numero não pode")
 
 
 

@@ -1,0 +1,7 @@
+print("Bem vindo ao gerador de usernames fofinhos para seu jogo! \n")
+color= input("Qual cor você considera angelical? \n")
+print("\n")
+simbol= input("O que você gostaria de simbolizar com o seu nick? Ex: Fairy, Rebel...  \n")
+print("\n")
+print("Seu nick fofinho é: " + color + " " + simbol)
+print("\n")

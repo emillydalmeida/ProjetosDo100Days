@@ -16,3 +16,15 @@ def drink_potion():
     print(player_health)
 
 drink_potion() 
+
+#Modificando variáveis globais
+
+enemies = 1
+
+def increase_enemies():
+    global enemies
+    enemies += 1
+    print(f"enemies inside function: {enemies}")
+
+increase_enemies()
+print(f"enemies outside function: {enemies}")
